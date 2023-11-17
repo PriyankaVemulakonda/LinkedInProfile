@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin:0;
+    padding:0;
+    height:370px;
+    width:270px;
+    border-radius: 12px;
+    position: relative;
+    border-top:6px solid rgb(228, 184, 70);
+    font-family: sans-serif;
+    background-color: rgb(55, 54, 53);
+    color:white;
+}
+.box1{
+    flex:5px;
+    margin:0;
+    padding: 0;
+    z-index: 1;
+    border-bottom: 2px solid  grey;
+}
+.premium p{
+    top:0;
+    left: 0;
+    margin:5px;
+    padding:2px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    color:rgb(24, 25, 25);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.premium img{
+    width:270px;
+    height: 80px;
+    object-fit:cover;
+    }
+
+.name {
+    font-size: 20px;
+        text-align: center; /* Center the text */
+        color:white;
+        padding-top: 10px;
+
+}
+.caption{
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(164, 160, 160);
+    padding-bottom: 10px;
+}
+.img-box {
+   position:absolute;
+    top:35px;
+    right:90px;
+}
+
+
+.img-box img{
+    width:80px;
+    size: 20px;
+    margin:5px;
+    border-radius: 50%;
+}
+.box2{
+    border-bottom: 2px solid rgb(189, 188, 188);
+    padding:10px;
+}
+h3,h4,p{
+    padding:0;
+    margin:0;
+
+}
+.viewers{
+    display: flex;
+    gap: 90px;
+    font-size: 15px;
+
+}
+.viewers h3,.impressions h3{
+    color: rgb(74, 134, 245);
+    padding-bottom: 5px;
+}
+.impressions{
+    display: flex;
+    gap:80px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 15px ;
+
+
+}
+.features{
+    padding: 10px;
+    display: flex;
+    gap:5px;
+    border-bottom: 2px solid grey;
+
+}
+.items{
+    padding: 10px;
+    display: flex;
+    gap:5px;
+    font-weight: normal;
+}
